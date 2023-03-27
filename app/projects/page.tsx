@@ -54,7 +54,7 @@ export default () => {
                     <Project
                         name="This website"
                         link="/"
-                        githubLink="https://github.com/leonlarsson/leonlarsson.com"
+                        githubLink="https://github.com/leonlarsson/leon-home"
                         nextLink={true}
                     />
 
