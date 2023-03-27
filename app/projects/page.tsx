@@ -49,7 +49,7 @@ export default () => {
                     />
 
                     <br />
-                    <span style={{ fontWeight: 900 }}>Tools:</span>
+                    <span style={{ fontWeight: 900 }}>Other:</span>
 
                     <Project
                         name="This website"
@@ -103,6 +103,12 @@ export default () => {
                         name="THE FINALS Leaderboard"
                         link="https://the-finals-leaderboard.leonlarsson.com/"
                         githubLink="https://github.com/leonlarsson/the-finals-leaderboard"
+                    />
+
+                    <Project
+                        name="React + Ant Design website"
+                        link="https://react-ant-design-ui.pages.dev/"
+                        githubLink="https://github.com/leonlarsson/react-ant-design-ui"
                     />
 
                     <a className="fa-brands fa-github fa-2xl" style={{ marginTop: 40 }} href="https://github.com/leonlarsson" target="_blank" title="GitHub" />
