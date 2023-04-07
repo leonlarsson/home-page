@@ -1,9 +1,29 @@
 import { Metadata } from "next";
 import Script from "next/script";
 
+const pageTitle = "Leon San José Larsson";
+const pageDescription = "Landing page for Leon San José Larsson. Includes links to CV and projects.";
+
 export const metadata: Metadata = {
+  title: pageTitle,
+  description: pageDescription,
+  icons: "/flavicon.ico",
   themeColor: "#cdacff",
-  icons: "/assets/images/icon.ico"
+  metadataBase: new URL("https://leonlarsson.com"),
+  openGraph: {
+    type: "website",
+    url: "https://leonlarsson.com",
+    title: pageTitle,
+    description: pageDescription,
+    images: "/assets/images/avatar.png"
+  },
+  twitter: {
+    card: "summary",
+    title: pageTitle,
+    description: pageDescription,
+    creator: "@mozzyfx",
+    images: "/assets/images/avatar.png"
+  }
 };
 
 export default ({ children }) => {

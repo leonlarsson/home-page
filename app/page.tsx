@@ -1,25 +1,6 @@
-import { Metadata } from "next";
 import Link from "next/link";
 
 import "/public/assets/css/main.css";
-
-export const metadata: Metadata = {
-    title: "Leon San José Larsson - leonlarsson.com",
-    description: "Landing page for Leon San José Larsson. Includes links to CV and projects.",
-    openGraph: {
-        type: "website",
-        url: "https://leonlarsson.com",
-        title: "Leon San José Larsson - leonlarsson.com",
-        description: "Landing page for Leon San José Larsson. Includes links to CV and projects.",
-        images: "/assets/images/avatar.png"
-    },
-    twitter: {
-        card: "summary",
-        title: "Leon San José Larsson - leonlarsson.com",
-        description: "Landing page for Leon San José Larsson. Includes links to CV and projects.",
-        images: "/assets/images/avatar.png"
-    }
-};
 
 export default () => {
     return (

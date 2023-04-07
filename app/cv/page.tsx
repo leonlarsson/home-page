@@ -2,20 +2,24 @@ import { Metadata } from "next";
 import CvHeader from "../../components/CvHeader";
 import "/public/assets/css/cv.css";
 
+const pageTitle = "English CV | Leon San José Larsson";
+const pageDescription = "Leon San José Larsson's CV/Resume in English.";
+
 export const metadata: Metadata = {
-    title: "English CV - leonlarsson.com",
-    description: "Leon San José Larsson's CV/Resume in English.",
+    title: pageTitle,
+    description: pageDescription,
     openGraph: {
         type: "website",
         url: "https://leonlarsson.com/cv",
-        title: "English CV - leonlarsson.com",
-        description: "Leon San José Larsson's CV/Resume in English.",
+        title: pageTitle,
+        description: pageDescription,
         images: "/assets/images/avatar.png"
     },
     twitter: {
         card: "summary",
-        title: "English CV - leonlarsson.com",
-        description: "Leon San José Larsson's CV/Resume in English.",
+        title: pageTitle,
+        description: pageDescription,
+        creator: "@mozzyfx",
         images: "/assets/images/avatar.png"
     }
 };

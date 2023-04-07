@@ -3,20 +3,24 @@ import Link from "next/link";
 
 import "/public/assets/css/main.css";
 
+const pageTitle = "Projects | Leon San José Larsson";
+const pageDescription = "Links to personal projects.";
+
 export const metadata: Metadata = {
-    title: "Projects - leonlarsson.com",
-    description: "Links to personal projects.",
+    title: pageTitle,
+    description: pageDescription,
     openGraph: {
         type: "website",
         url: "https://leonlarsson.com/projects",
-        title: "Projects - leonlarsson.com",
-        description: "Links to personal projects.",
+        title: pageTitle,
+        description: pageDescription,
         images: "/assets/images/avatar.png"
     },
     twitter: {
         card: "summary",
-        title: "Projects - leonlarsson.com",
-        description: "Links to personal projects.",
+        title: pageTitle,
+        description: pageDescription,
+        creator: "@mozzyfx",
         images: "/assets/images/avatar.png"
     }
 };
