@@ -7,7 +7,7 @@ const pageDescription = "Landing page for Leon San José Larsson. Includes links
 export const metadata: Metadata = {
   title: pageTitle,
   description: pageDescription,
-  icons: "/flavicon.ico",
+  icons: "/favicon.ico",
   themeColor: "#cdacff",
   metadataBase: new URL("https://leonlarsson.com"),
   openGraph: {
