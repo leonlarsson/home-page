@@ -115,6 +115,11 @@ export default () => {
                         githubLink="https://github.com/leonlarsson/react-ant-design-ui"
                     />
 
+                    <Project
+                        name="Bloodhunt ARG"
+                        link="https://omnis.pages.dev/"
+                    />
+
                     <a className="fa-brands fa-github fa-2xl" style={{ marginTop: 40 }} href="https://github.com/leonlarsson" target="_blank" title="GitHub" />
                     <hr />
                     <ul style={{ textAlign: "left" }}>
